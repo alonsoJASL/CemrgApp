@@ -15,7 +15,6 @@ The executable binaries can be downloaded for:
 To run all of CemrgApp's specialised modules, such as the machine learning pipeline for atrial fibrosis 
 quantification, **Docker** is required to be installed on the user's computer. This can be downloaded from: 
 + [Docker for macOS.](https://docs.docker.com/docker-for-mac/install/) Simple installation and running.
-+ Docker for Linux. _WARNING: This will give root access to docker_
++ [Docker for Linux.](https://docs.docker.com/install/linux/docker-ce/ubuntu/) You need to provide access to Docker. Instructions [here](https://docs.docker.com/install/linux/linux-postinstall/) _WARNING: This will give root access to docker_
 
-## Contact
 
