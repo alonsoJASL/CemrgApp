@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <extension point="org.blueberry.ui.views">
+    <view id="org.mitk.views.scar"
+          name="Cemrg Atrial Scar View"
+          class="AtrialScarView"
+          icon="resources/icon.xpm" />
+  </extension>
+
+  <extension point="org.blueberry.ui.views">
+    <view id="org.mitk.views.scarclipper"
+          name="Cemrg Atrial Scar Clipper View"
+          class="AtrialScarClipperView"
+          icon="resources/icon.xpm" />
+  </extension>
+
+  <extension point="org.blueberry.ui.views">
+    <view id="org.mitk.views.scaryzseg"
+          name="Scar YZSeg"
+          class="YZSegView"
+          icon="resources/icon.xpm" />
+  </extension>
+
+</plugin>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+  <extension id="kcl.cemrgapp.mainapp" point="org.blueberry.osgi.applications">
+    <application>
+      <run class="QmitkCemrgApplication"/>
+    </application>
+    <view id="org.mitk.views.cemrgapplication"
+          name="Cemrg Application"
+          class="QmitkCemrgApplication"
+          icon="resources/icon_research.xpm" />
+  </extension>
+
+  <extension id="cemrgapp" point="org.blueberry.core.runtime.products">
+    <product name="Cemrg Application" application="kcl.cemrgapp.mainapp" />
+  </extension>
+
+  <extension point="org.blueberry.ui.perspectives">
+    <perspective id="kcl.cemrgapp.CemrgJBPerspective"
+      name="Cemrg JB Perspective"
+      class="QmitkCemrgJBPerspective"
+      icon="resources/icon_research.xpm" />
+  </extension>
+
+  <extension point="org.blueberry.ui.perspectives">
+    <perspective id="kcl.cemrgapp.CemrgRRPerspective"
+      name="Cemrg RR Perspective"
+      class="QmitkCemrgRRPerspective"
+      icon="resources/icon_research.xpm" />
+  </extension>
+
+  <extension point="org.blueberry.ui.perspectives">
+    <perspective id="kcl.cemrgapp.CemrgHCPerspective"
+      name="Cemrg Scar Perspective"
+      class="QmitkCemrgHCPerspective"
+      icon="resources/icon_research.xpm" />
+  </extension>
+
+  <extension point="org.blueberry.ui.perspectives">
+    <perspective id="kcl.cemrgapp.CemrgEasiPerspective"
+      name="Cemrg EASI Perspective"
+      class="QmitkCemrgEasiPerspective"
+      icon="resources/icon_research.xpm" />
+  </extension>
+
+  <extension point="org.blueberry.ui.perspectives">
+    <perspective id="kcl.cemrgapp.CemrgFestivePerspective"
+      name="Cemrg Festive Perspective"
+      class="QmitkCemrgFestivePerspective"
+      icon="resources/icon_research.xpm" />
+  </extension>
+
+  <extension point="org.blueberry.ui.perspectives">
+    <perspective id="kcl.cemrgapp.CemrgWathcaPerspective"
+      name="Cemrg Wathca Perspective"
+      class="QmitkCemrgWathcaPerspective"
+      icon="resources/icon_research.xpm" />
+  </extension>
+
+</plugin>
